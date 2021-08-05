@@ -1,0 +1,17 @@
+.navLink {
+  flex-grow: 1;
+}
+
+.navLink ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink a {
+  transition: 0.3s;
+  font-size: 40px;
+}
+
+.navLink a:hover {
+  color: var(--red);
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Architectural;
+  src: url("./assets/fonts/Architectural.ttf");
+}
+
+@font-face {
+  font-family: Steppe;
+  src: url("./assets/fonts/Steppe.ttf");
+}
+
+:root {
+  --red: #e1504f;
+}
+
+body {
+  font-family: Architectural, sans-serif;
+  background-color: #1b1b1b;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 100px;
+}

@@ -1,0 +1,21 @@
+.title {
+  font-size: 25px;
+  font-family: Steppe, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.lastPartiesList {
+  display: flex;
+  gap: 35px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.lastPartiesList li {
+  cursor: pointer;
+}
+
+.partyPoster {
+  object-fit: cover;
+}

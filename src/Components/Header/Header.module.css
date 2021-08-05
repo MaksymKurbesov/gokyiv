@@ -1,0 +1,12 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  /*padding: 0 100px;``*/
+  background-color: #1b1b1b;
+}
+
+.logotype {
+  display: inline-block;
+  margin-right: 100px;
+}

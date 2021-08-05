@@ -1,0 +1,27 @@
+.sliderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: Steppe, sans-serif;
+  font-size: 30px;
+}
+
+.date {
+  display: block;
+  font-size: 15px;
+  padding-left: 3px;
+  margin-bottom: 40px;
+}
+
+.buyTicketButton {
+  border: none;
+  background: none;
+  outline: none;
+  text-transform: uppercase;
+  font-family: Steppe, sans-serif;
+  font-size: 13px;
+  padding-left: 3px;
+  color: var(--red);
+  cursor: pointer;
+}

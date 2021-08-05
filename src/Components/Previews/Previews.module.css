@@ -1,0 +1,11 @@
+.previewsWrapper {
+  max-width: 70%;
+  margin: 0 auto;
+  color: black;
+  font-size: 40px;
+  padding: 100px 0;
+}
+
+.previewsWrapper img {
+  display: block;
+}
