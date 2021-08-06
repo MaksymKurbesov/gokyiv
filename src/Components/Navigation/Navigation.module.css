@@ -10,6 +10,7 @@
 .navLink a {
   transition: 0.3s;
   font-size: 40px;
+  font-family: Architectural, sans-serif;
 }
 
 .navLink a:hover {

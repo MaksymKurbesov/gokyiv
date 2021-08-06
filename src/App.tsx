@@ -4,6 +4,7 @@ import "./App.global.css";
 import Previews from "./Components/Previews/Previews";
 import LastParties from "./Components/LastParties/LastParties";
 import Photos from "./Components/Photos/Photos";
+import Releases from "./Components/Releases/Releases";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Previews />
       <LastParties />
       <Photos />
+      <Releases />
     </>
   );
 };

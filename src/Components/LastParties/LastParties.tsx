@@ -10,7 +10,7 @@ import styles from "./LastParties.module.css";
 
 const LastParties = () => {
   return (
-    <div className="container">
+    <div className={styles.lastParties}>
       <h3 className={styles.title}>Останні вечірки</h3>
       <ul className={styles.lastPartiesList}>
         <li>

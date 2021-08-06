@@ -1,0 +1,21 @@
+.title {
+  font-size: 25px;
+  font-family: Steppe, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.releasesList {
+  display: flex;
+  gap: 30px;
+}
+
+.releasesList li {
+  flex-basis: 33%;
+}
+
+.releasesList img {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}

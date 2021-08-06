@@ -4,3 +4,35 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+
+.photosets {
+  composes: container from global;
+  margin-bottom: 100px;
+}
+
+.photosets ul {
+  display: flex;
+  gap: 40px;
+}
+
+.photosets li {
+  width: 50%;
+  position: relative;
+  z-index: 5;
+}
+
+.photosets img {
+  display: block;
+  object-fit: cover;
+  z-index: -1;
+  margin-bottom: 20px;
+}
+
+.photosetInfo {
+  font-size: 20px;
+}
+
+.photosetInfo span {
+  font-size: 15px;
+  color: var(--red);
+}

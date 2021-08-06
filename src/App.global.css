@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Architectural, sans-serif;
+  font-family: Steppe, sans-serif;
   background-color: #1b1b1b;
 }
 
@@ -34,8 +34,8 @@ ul {
   list-style: none;
 }
 
-.container {
-  max-width: 1600px;
+:global(.container) {
+  max-width: 1540px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 50px;
 }
